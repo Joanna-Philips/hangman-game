@@ -1,0 +1,26 @@
+.btn {
+  width: 100%;
+  border: 2px solid black;
+  background: none;
+  text-transform: uppercase;
+  padding: .5rem;
+  cursor: pointer;
+  font-size: 2rem;
+  color: black;
+  aspect-ratio: 1/1;
+}
+
+.btn.active {
+  background-color: pink;
+  color: white;
+}
+
+.btn.inactive {
+  opacity: .4;
+}
+
+
+.btn:hover,
+.btn:focus {
+  background-color: pink;
+}

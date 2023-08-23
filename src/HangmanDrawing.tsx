@@ -51,6 +51,33 @@ const LEFT_ARM = (
     }}/>
 )
 
+const RIGHT_LEG = (
+    <div 
+    style={{
+        width: "100px",
+        height: "8px",
+        background: "teal",
+        position: "absolute",
+        top: "200px",
+        right: "-90px",
+        rotate: "50deg",
+        transformOrigin: "left bottom"
+    }}/>
+)
+
+const LEFT_LEG = (
+    <div 
+    style={{
+        width: "100px",
+        height: "8px",
+        background: "teal",
+        position: "absolute",
+        top: "200px",
+        right: "-2px",
+        rotate: "-50deg",
+        transformOrigin: "right bottom"
+    }}/>
+)
 
 export const HangmanDrawing = () => {
   return (
@@ -59,6 +86,8 @@ export const HangmanDrawing = () => {
         {BODY}
         {RIGHT_ARM}
         {LEFT_ARM}
+        {RIGHT_LEG}
+        {LEFT_LEG}
       <div
         style={{
           height: "50px",
