@@ -11,16 +11,16 @@
 }
 
 .btn.active {
-  background-color: pink;
+  background-color: hsl(200, 100%, 50%);
   color: white;
 }
 
 .btn.inactive {
-  opacity: .4;
+  opacity: .3;
 }
 
 
-.btn:hover,
-.btn:focus {
-  background-color: pink;
+.btn:hover:not(:disabled),
+.btn:focus:not(:disabled) {
+  background-color: hsl(200, 100%, 75%);
 }

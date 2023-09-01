@@ -40,7 +40,10 @@ export const Keyboard = () => {
     >
       {KEYS.map((letterKey) => {
         return (
-          <button className={styles.btn} key={letterKey}>
+          <button
+            className={`${styles.btn}`}
+            key={letterKey}
+          >
             {letterKey}
           </button>
         );
